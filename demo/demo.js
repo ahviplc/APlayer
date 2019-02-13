@@ -200,5 +200,6 @@ $.ajax({
     url: 'https://api.i-meto.com/meting/api?server=netease&type=playlist&id=35798529',
     success: function (list) {
         ap8.list.add(JSON.parse(list));
+        console.log(JSON.parse(list))
     }
 });
